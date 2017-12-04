@@ -1,0 +1,79 @@
+body {
+    padding: 20px; /*内边距*/
+    margin: 0 auto; /*外边距*/
+    background-color: #E2E2E2;
+    max-width: 1024px;
+    color: #595B66;
+    font-family: 'Microsoft YaHei UI', sans-serif; /* 所列出的字体都不能用时，则默认的sans-serif字体能保证调用*/
+}
+
+h1, h2, h3, h4 {
+    color: #797979;
+    padding: 5px 0;
+}
+
+h1, h2 {
+    border-bottom: solid 2px #797979;
+}
+
+p {
+    font-size: 15px;
+    background: #797979;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    line-height: 2;
+}
+
+a {
+    color: #FFD200;
+}
+
+.box {
+    background-color: white;
+    text-align: center;
+    border: dashed 1px orange;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    display: table-cell;
+    vertical-align: middle; /*设置元素的垂直对齐方式。middle:把此元素放置在父元素的中部。*/
+}
+
+.box span {
+    width: 200px;
+    height: 200px;
+    line-height: 200px; /*行间距离（行高）*/
+    margin: 5px;
+    background-color: #FFD200;
+    font-size: 100px;
+    color: white;
+}
+
+.box2 {
+    position: relative;
+    height: 200px;
+    border: dashed 1px orange;
+    background-color: white;
+    text-align: center;
+}
+
+.box2 .span {
+    position: absolute;
+    background-color: #FFD200;
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -25px;
+    text-align: center;
+    color: white;
+}
+
